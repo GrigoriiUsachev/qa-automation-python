@@ -5,6 +5,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 from pages.login_page import LoginPage
 
+pytestmark = pytest.mark.ui
+
 
 @pytest.fixture
 def driver():
